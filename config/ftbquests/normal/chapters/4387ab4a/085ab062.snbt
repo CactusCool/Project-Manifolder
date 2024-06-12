@@ -1,0 +1,26 @@
+{
+	title: "First Power Transfer",
+	x: 2.5d,
+	y: -3.5d,
+	text: [
+		"so you need to extract power from your solar pannels, well get your first bit of copper and you can!"
+	],
+	dependencies: [
+		"dcd2afd2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "60c4b665",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "c6a9ded4",
+		type: "item",
+		item: "enderio:item_power_conduit",
+		count: 8
+	}]
+}

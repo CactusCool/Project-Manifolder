@@ -1,0 +1,143 @@
+{
+	title: "The start of something great",
+	x: 1.5d,
+	y: -5.5d,
+	text: [
+		"deafing explosions rock your ship as your forced out of higher dimentional travel. A containment breach in you ships right dark matter engine forces you to crash on the nearest celestial body, a barren wasteland scattered by ancient looking temples.",
+		"You awaken disoriented in the wreckage of your ship. You scavange the wreckage for anything useful and manage to collect a basic Matter Enery System and some basic survival gear."
+	],
+	tasks: [{
+		uid: "a74df8c8",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "c8ce7d40",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "c42727d4",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "00526669",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "e7b7d4f1",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "c2ba314c",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:wireless_crafting_terminal",
+			tag: {}
+		}
+	},
+	{
+		uid: "bddf7f4f",
+		type: "item",
+		item: "appliedenergistics2:drive"
+	},
+	{
+		uid: "ff3f8e04",
+		type: "item",
+		item: "appliedenergistics2:part 1 220",
+		count: 2
+	},
+	{
+		uid: "f6ef1be2",
+		type: "item",
+		item: "appliedenergistics2:part 1 16",
+		count: 32
+	},
+	{
+		uid: "f2f2b612",
+		type: "item",
+		item: {
+			id: "gregtech:gt_armor",
+			Damage: 2s,
+			tag: {
+				Fluid: {
+					FluidName: "diesel",
+					Amount: 16000
+				}
+			}
+		}
+	},
+	{
+		uid: "f553cad2",
+		type: "item",
+		item: "appliedenergistics2:wireless_access_point"
+	},
+	{
+		uid: "6309b227",
+		type: "item",
+		item: "appliedenergistics2:part 1 360"
+	},
+	{
+		uid: "e68400f0",
+		type: "item",
+		item: "ae2fc:part_fluid_pattern_terminal"
+	},
+	{
+		uid: "f8f9eee9",
+		type: "item",
+		item: "appliedenergistics2:energy_acceptor"
+	},
+	{
+		uid: "bd90072f",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:energy_cell",
+			tag: {}
+		},
+		count: 2
+	},
+	{
+		uid: "1301efdb",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "68011063",
+		type: "item",
+		item: "appliedenergistics2:material 1 42",
+		count: 4
+	},
+	{
+		uid: "d5540fe7",
+		type: "item",
+		item: "actuallyadditions:block_furnace_solar",
+		count: 8
+	},
+	{
+		uid: "10203376",
+		type: "item",
+		item: "nae2:part"
+	},
+	{
+		uid: "a5297a8d",
+		type: "item",
+		item: "project_manifolder:atomic_reconstruction_core"
+	}]
+}

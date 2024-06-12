@@ -1,0 +1,76 @@
+{
+	title: "Automation Challenge 1",
+	icon: "actuallyadditions:item_mining_lens",
+	x: 4.5d,
+	y: -2.5d,
+	shape: "hexagon",
+	text: [
+		"Warning consumes items"
+	],
+	dependencies: [
+		"881d023d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "cc98ea79",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "6c5ffe65",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 25"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "15f67fa4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 112"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c82ef693",
+		type: "item",
+		item: {
+			id: "gregtech:drill_lv",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:diamond",
+					MaxDurability: 2303,
+					Durability: 0,
+					ToolSpeed: 10.0f,
+					HarvestLevel: 3,
+					AttackDamage: 8.0f,
+					AttackSpeed: -3.1000001f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					TorchPlacing: 1b,
+					MaxAoEColumn: 1,
+					MaxAoERow: 1,
+					MaxAoELayer: 0,
+					AoEColumn: 1,
+					AoERow: 1,
+					AoELayer: 0
+				},
+				MaxCharge: 100000L,
+				Charge: 0L,
+				ench: [{
+					id: 32s,
+					lvl: 5s
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	icon: "actuallyadditions:block_furnace_solar",
+	x: 0.5d,
+	y: -2.5d,
+	text: [
+		"Ah good ol' solar energy. Until you can start generating your own power you have to rely on scavanged solar panels from the wreckage."
+	],
+	tasks: [{
+		uid: "8aac6a2a",
+		type: "checkmark",
+		title: "Don't stare at it",
+		icon: "extrautils2:suncrystal"
+	}]
+}

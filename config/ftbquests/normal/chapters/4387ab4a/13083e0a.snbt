@@ -1,0 +1,24 @@
+{
+	title: "Babys first machine casing!",
+	icon: "gregtech:steam_casing",
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"dcd2afd2"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "128d17c1",
+		type: "checkmark"
+	},
+	{
+		uid: "4d344e52",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing"
+		}]
+	}]
+}

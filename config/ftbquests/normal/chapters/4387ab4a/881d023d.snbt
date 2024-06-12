@@ -1,0 +1,26 @@
+{
+	title: "Ore Automation",
+	x: 4.0d,
+	y: -1.5d,
+	text: [
+		"The first automatic way to produce ore, combine a breaker placer, and some way to smelt cobble stone and bam you have ore!"
+	],
+	dependencies: [
+		"0365fd8a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8fcc3291",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_breaker"
+		}]
+	},
+	{
+		uid: "5e44f1fb",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_placer"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: -1.5d,
+	text: [
+		"Make your first iron casing"
+	],
+	dependencies: [
+		"dcd2afd2",
+		"13083e0a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b76c0523",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_misc 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "6b68c0b0",
+		type: "item",
+		item: "minecraft:cooked_beef",
+		count: 16
+	}]
+}

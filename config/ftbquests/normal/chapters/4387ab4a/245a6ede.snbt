@@ -1,0 +1,13 @@
+{
+	x: -0.5d,
+	y: -5.0d,
+	shape: "gear",
+	text: [
+		"Some general information about the questbook. This packs questbook is designed to guide and challenge the player. Have you ever forgor to submit an item to a quest needed for progression but already used it in a craft, well I sure have. For this reason any required quests will all be completeable by checkmark, the quests are here to guide you not annoy you! but because of this the main questline will have NO quest rewards. Instead there will be optional challenge quests that will require items related to the questline, these will typically be in large enough quantities to force you to automate said item, However they will also have rewards that give items which might be unavailable or annoying to craft at the given tier."
+	],
+	tasks: [{
+		uid: "e0d22bc1",
+		type: "checkmark",
+		title: "Questbook Notes"
+	}]
+}

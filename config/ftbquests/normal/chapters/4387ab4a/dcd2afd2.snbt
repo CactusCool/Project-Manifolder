@@ -1,0 +1,26 @@
+{
+	icon: "actuallyadditions:block_atomic_reconstructor",
+	x: 1.5d,
+	y: -2.5d,
+	text: [
+		"By scrapping some of the materials from the wreckage you belive it might be possible to manufacture a working atomic reconstructor. you gut a solar pannel wiring, repurpose a beam former as a laser and use a atomic reconstruction core from a broken ship fabricator, slapping the guts into a shoddily made stone box will have to do for now."
+	],
+	dependencies: [
+		"e0ecf428"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "572d7105",
+		type: "checkmark",
+		title: "Reconstructin"
+	},
+	{
+		uid: "b0020b55",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_mining_lens"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	icon: "minecraft:iron_ore",
+	x: 1.5d,
+	y: -4.0d,
+	text: [
+		"You might have noticed something a bit strange, there is no ore?. It seems the creators of these temples sucked the planet dry of any surface reasources. the only reasources left lie beneath the bedrock.",
+		"hmm what if I could turn stone into ore, if I could change the atomic structure maybe it would be possible"
+	],
+	dependencies: [
+		"60195f04"
+	],
+	tasks: [{
+		uid: "383ca7c7",
+		type: "checkmark",
+		title: "Ore??"
+	}]
+}
