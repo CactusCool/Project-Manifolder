@@ -1,0 +1,13 @@
+{
+	title: "High pressure machines",
+	icon: "gregtech:machine 1 14",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"You can now make high pressure machines with your steel, 2x the speed."
+	],
+	tasks: [{
+		uid: "7383415d",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: 0.5d,
+	text: [
+		"The Steam alloy smelter is needed to create a variety of early game alloys and glass too."
+	],
+	dependencies: [
+		"44869ad2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f883593d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "4c121cd6",
+		type: "item",
+		item: "minecraft:glass",
+		count: 10
+	}]
+}

@@ -9,5 +9,10 @@
 		uid: "e0d22bc1",
 		type: "checkmark",
 		title: "Questbook Notes"
+	}],
+	rewards: [{
+		uid: "4538a760",
+		type: "item",
+		item: "minecraft:cookie"
 	}]
 }

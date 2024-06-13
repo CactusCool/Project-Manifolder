@@ -1,8 +1,14 @@
-//remove recipies 
+//remove items completly
 def total_removal = [
     item('actuallyadditions:block_leaf_generator'),
     item('actuallyadditions:block_oil_generator'),
-    item('actuallyadditions:block_coal_generator')
+    item('actuallyadditions:block_coal_generator'),
+    item('actuallyadditions:block_canola_press'),
+    item('actuallyadditions:block_lava_factory_controller'),
+    item('actuallyadditions:block_grinder'),
+    item('actuallyadditions:block_grinder_double'),
+    item('actuallyadditions:item_drill'),
+    item('actuallyadditions:block_heat_collector'),
 ]
 
 
@@ -11,10 +17,14 @@ for(item : total_removal){
 }
 
 
-
+//recipie removals to be replaced later 
 def recipie_removal = [
     item('actuallyadditions:block_atomic_reconstructor'),
-    
+    item('actuallyadditions:block_item_repairer'),
+    item('actuallyadditions:block_greenhouse_glass'),
+    item('actuallyadditions:block_farmer'),
+    item('actuallyadditions:block_giant_chest_medium'),
+    item('actuallyadditions:block_giant_chest_large')
 ]
 
 for(item : recipie_removal){
@@ -22,6 +32,7 @@ for(item : recipie_removal){
 }
 
 
+//crfting table recipies
 
 //add recipie for initial craft of atomic reconstructor
 crafting.addShaped('atomic reconstructor initial craft', item('actuallyadditions:block_atomic_reconstructor'), [
@@ -44,14 +55,24 @@ crafting.replaceShaped(item('actuallyadditions:item_mining_lens'), [
     [null, item('minecraft:stone_pickaxe'), null]
 ])
 
+//change recipie for iron casing
 crafting.replaceShaped(item('actuallyadditions:block_misc', 9), [
     [null, item('minecraft:stone_pickaxe'), null],
     [item('minecraft:stone_pickaxe'), item('gregtech:steam_casing'), item('minecraft:stone_pickaxe')],
     [null, item('minecraft:stone_pickaxe'), null]
 ])
 
+
+
+//reconstructor recipies
+
+//add recipie for netherack from cobble stone in reconstructor
 mods.actuallyadditions.atomic_reconstructor.recipeBuilder()
     .input(item('minecraft:cobblestone'))
     .output(item('minecraft:netherrack'))
     .energy(2000)
     .register()
+
+
+
+

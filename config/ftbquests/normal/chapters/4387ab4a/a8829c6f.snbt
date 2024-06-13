@@ -1,0 +1,23 @@
+{
+	title: "Its time to cook",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"Creates coke, not the fun kind :(",
+		""
+	],
+	dependencies: [
+		"dcd2afd2"
+	],
+	tasks: [{
+		uid: "b67b5131",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1017"
+		}]
+	},
+	{
+		uid: "d612b84b",
+		type: "checkmark"
+	}]
+}

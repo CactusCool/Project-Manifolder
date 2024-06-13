@@ -1,0 +1,7 @@
+{
+	title: "Lv ",
+	icon: "gregtech:machine 1 986",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

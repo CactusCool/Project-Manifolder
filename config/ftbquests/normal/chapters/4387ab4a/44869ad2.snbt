@@ -1,0 +1,20 @@
+{
+	title: "Steam age baby!",
+	x: 1.5d,
+	y: 0.5d,
+	dependencies: [
+		"13083e0a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "533bdba1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	},
+	{
+		uid: "8e531e94",
+		type: "checkmark"
+	}]
+}

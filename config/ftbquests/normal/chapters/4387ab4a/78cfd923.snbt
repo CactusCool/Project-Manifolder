@@ -1,0 +1,22 @@
+{
+	title: "Say hello to coke.... ovens",
+	x: 3.5d,
+	y: -0.5d,
+	dependencies: [
+		"c9f0e7f2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8d7fbf59",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "7f00a5c2",
+		type: "item",
+		item: "gregtech:meta_gem 1 319",
+		count: 32
+	}]
+}
