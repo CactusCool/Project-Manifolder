@@ -1,4 +1,4 @@
-//remove recipies 
+//remove recipes 
 def total_removal = [
 
 ]
@@ -10,10 +10,10 @@ for(item : total_removal){
 
 
 
-def recipie_removal = [
+def recipe_removal = [
     item('teslacorelib:machine_case')
 ]
 
-for(item : recipie_removal){
+for(item : recipe_removal){
     crafting.removeByOutput(item);
 }

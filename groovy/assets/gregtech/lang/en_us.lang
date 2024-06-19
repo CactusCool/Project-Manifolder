@@ -1,0 +1,10 @@
+gregtech.machine.steam_alloy_factory.name=Steam Alloy Factory
+gregtech.machine.steam_alloy_factory.tooltip=A Multiblock Alloy Smelter 
+gregtech.machine.steam_squasher.name=Steam Squasher
+gregtech.machine.steam_squasher.tooltip=A Multiblock Compressor 
+gregtech.machine.steam_suucker.name=Steam Suucker
+gregtech.machine.steam_suucker.tooltip=A Multiblock Extractor
+gregtech.machine.steam_mixer.name=Steam Mixer
+gregtech.machine.steam_mixer.tooltip=Will it blend?
+gregtech.machine.high_pressure_steam_mixer.name=High Pressure Steam Mixer
+gregtech.machine.high_pressure_steam_mixer.tooltip=Will it blend?
